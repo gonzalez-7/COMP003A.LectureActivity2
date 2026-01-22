@@ -16,6 +16,11 @@
 
             double a = double.Parse(input1);
             double b = double.Parse(input2);
+
+            // Step 5
+
+            double sum = a + b;
+            double average = (a  + b) / 2;
         }
     }
 }
