@@ -21,6 +21,20 @@
 
             double sum = a + b;
             double average = (a  + b) / 2;
+
+            // Step 6A 
+
+            Console.WriteLine();
+            Console.WriteLine("Using Concatenation");
+            Console.WriteLine("Sum: " + sum);
+            Console.WriteLine("Average: " + average);
+
+            // Step 6B
+
+            Console.WriteLine();
+            Console.WriteLine("Using interpolation");
+            Console.WriteLine($"Sum: {sum}");
+            Console.WriteLine($"Average: {average}");
         }
     }
 }
