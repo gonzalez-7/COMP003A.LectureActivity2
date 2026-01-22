@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.Write("Enter the first number: ");
+            string input1 = Console.ReadLine();
         }
     }
 }
