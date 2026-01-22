@@ -38,7 +38,7 @@
 
             // Step 7
 
-            bool greatherThan = a > b;
+            bool greaterThan = a > b;
             bool equalTo = a == b;
 
             Console.WriteLine();
