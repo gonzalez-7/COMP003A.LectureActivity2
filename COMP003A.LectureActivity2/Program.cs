@@ -40,6 +40,11 @@
 
             bool greatherThan = a > b;
             bool equalTo = a == b;
+
+            Console.WriteLine();
+            Console.WriteLine("Comparisions");
+            Console.WriteLine($"{a} > {b}: {greaterThan}");
+            Console.WriteLine($"{a} == {b}: {equalTo}");
         }
     }
 }
