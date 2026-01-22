@@ -35,6 +35,11 @@
             Console.WriteLine("Using interpolation");
             Console.WriteLine($"Sum: {sum}");
             Console.WriteLine($"Average: {average}");
+
+            // Step 7
+
+            bool greatherThan = a > b;
+            bool equalTo = a == b;
         }
     }
 }
